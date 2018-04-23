@@ -1,0 +1,6 @@
+framework module CMThirdPartyPlatformManager {
+  umbrella header "CMThirdPartyPlatformManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

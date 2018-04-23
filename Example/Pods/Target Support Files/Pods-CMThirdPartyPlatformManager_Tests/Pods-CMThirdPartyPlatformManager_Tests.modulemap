@@ -1,0 +1,6 @@
+framework module Pods_CMThirdPartyPlatformManager_Tests {
+  umbrella header "Pods-CMThirdPartyPlatformManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

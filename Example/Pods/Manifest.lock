@@ -1,0 +1,49 @@
+PODS:
+  - CMThirdPartyPlatformManager (1.0.0):
+    - CMThirdPartyPlatformManager/Alipay (= 1.0.0)
+    - CMThirdPartyPlatformManager/AlipaySDK (= 1.0.0)
+    - CMThirdPartyPlatformManager/Core (= 1.0.0)
+    - CMThirdPartyPlatformManager/QQ (= 1.0.0)
+    - CMThirdPartyPlatformManager/QQSDK (= 1.0.0)
+    - CMThirdPartyPlatformManager/ShareUI (= 1.0.0)
+    - CMThirdPartyPlatformManager/Wechat (= 1.0.0)
+    - CMThirdPartyPlatformManager/WechatSDK (= 1.0.0)
+  - CMThirdPartyPlatformManager/Alipay (1.0.0):
+    - CMThirdPartyPlatformManager/AlipaySDK
+    - CMThirdPartyPlatformManager/Core
+  - CMThirdPartyPlatformManager/AlipaySDK (1.0.0)
+  - CMThirdPartyPlatformManager/Core (1.0.0)
+  - CMThirdPartyPlatformManager/QQ (1.0.0):
+    - CMThirdPartyPlatformManager/Core
+    - CMThirdPartyPlatformManager/QQSDK
+  - CMThirdPartyPlatformManager/QQSDK (1.0.0)
+  - CMThirdPartyPlatformManager/ShareUI (1.0.0):
+    - Masonry
+    - pop
+  - CMThirdPartyPlatformManager/Wechat (1.0.0):
+    - CMThirdPartyPlatformManager/Core
+    - CMThirdPartyPlatformManager/WechatSDK
+  - CMThirdPartyPlatformManager/WechatSDK (1.0.0)
+  - Masonry (1.1.0)
+  - pop (1.0.10)
+
+DEPENDENCIES:
+  - CMThirdPartyPlatformManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - pop
+
+EXTERNAL SOURCES:
+  CMThirdPartyPlatformManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMThirdPartyPlatformManager: 3dd113e5a9d918b5afb49bf307a6ccc80a3a12c1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+
+PODFILE CHECKSUM: 41785fe2a3154a97bcc0023ab6a2c456b503e6b9
+
+COCOAPODS: 1.5.0

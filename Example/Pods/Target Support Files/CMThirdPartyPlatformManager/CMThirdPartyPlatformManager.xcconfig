@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CMThirdPartyPlatformManager
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../CMThirdPartyPlatformManager/Classes/ThirdParty/AlipaySDK" "${PODS_ROOT}/../../CMThirdPartyPlatformManager/Classes/ThirdParty/QQSDK" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/pop"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../CMThirdPartyPlatformManager/Classes/ThirdParty/WechatSDK"
+OTHER_LDFLAGS = -l"WeChatSDK" -l"c++" -l"iconv" -l"sqlite3.0" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
