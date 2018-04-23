@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CMThirdPartyPlatformManager_Example' do
+  pod 'CMThirdPartyPlatformManager', :path => '../'
+
+  target 'CMThirdPartyPlatformManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
