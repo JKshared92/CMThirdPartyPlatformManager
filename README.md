@@ -29,5 +29,7 @@ comma, 506702341@qq.com
 CMThirdPartyPlatformManager is available under the MIT license. See the LICENSE file for more info.
 
 ##使用说明
+
 需要自己添加对应白名单 [如果不知道怎么配看这里](https://www.jianshu.com/p/f974f4cbba18)
+
 其余用法都在Example里面了，微博登陆和分享的功能后续会更新
